@@ -4,8 +4,7 @@
   "description": "Teste de rotas",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js", 
-    "dev": "node main.js"
+    "start": "node main.js"
   },
   "author": "Carlos Kauan",
   "license": "ISC",
