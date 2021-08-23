@@ -1,11 +1,11 @@
 {
-  "name": "b",
+  "name": "Teste-de-rotas",
   "version": "1.0.0",
   "description": "Teste de rotas",
   "main": "index.js",
   "scripts": {
     "start": "node server.js", 
-    "dev": "node Index.js"
+    "dev": "node main.js"
   },
   "author": "Carlos Kauan",
   "license": "ISC",
