@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="pt_br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/styles.css" type="text/css" media="all" />
+    <title>Perfil</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">Teste de rotas</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/perfil">Perfil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/canal">Canal</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container bootdey flex-grow-1 container-p-y">
+            <div class="media align-items-center py-3 mb-3">
+              <img src="/styles/icons/eu.png" alt="" class="d-block ui-w-100 rounded-circle">
+              <div class="media-body ml-4">
+                <h4 class="font-weight-bold mb-0">Carlos Kauan<span class="text-muted font-weight-normal">@dark</span></h4>
+                <div class="text-muted mb-2">ID: 15971597</div>
+                <a href="javascript:void(0)" class="btn btn-default btn-sm icon-btn"><i class="fa fa-mail"></i></a>
+              </div>
+            </div>
+            <div class="card mb-4">
+              <div class="card-body">
+                <table class="table user-view-table m-0">
+                  <tbody>
+                    <tr>
+                      <td>Registrado:</td>
+                      <td>01/23/2021</td>
+                    </tr>
+                    <tr>
+                      <td>Visto por último:</td>
+                      <td>08/22/2021 (1 minuto atrás)</td>
+                    </tr>
+                    <tr>
+                      <td>Verificado:</td>
+                      <td><span class="fa fa-check text-primary"></span>&nbsp;Sim</td>
+                    </tr>
+                    <tr>
+                      <td>Tipo:</td>
+                      <td>Administrador</td>
+                    </tr>
+                    <tr>
+                      <td>Status:</td>
+                      <td><span class="badge badge-outline-success">Staff</span></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <hr class="border-light m-0">
+              <div class="table-responsive">
+                <table class="table card-table m-0">
+                  <tbody>
+                    <tr>
+                      <th>Permissão</th>
+                      <th>Ler</th>
+                      <th>Alterar</th>
+                      <th>Criar</th>
+                      <th>Apagar</th>
+                    </tr>
+                    <tr>
+                      <td>Users</td>
+                      <td><span class="fa fa-check text-primary">Sim</span></td>
+                      <td><span class="fa fa-times text-light">Não</span></td>
+                      <td><span class="fa fa-times text-light">Não</span></td>
+                      <td><span class="fa fa-times text-light">Não</span></td>
+                    </tr>
+                    <tr>
+                      <td>Moderador</td>
+                      <td><span class="fa fa-check text-primary">Sim</span></td>
+                      <td><span class="fa fa-check text-primary">Sim</span></td>
+                      <td><span class="fa fa-check text-primary">Sim</span></td>
+                      <td><span class="fa fa-times text-light">Não</span></td>
+                    </tr>
+                    <tr>
+                      <td>Staff</td>
+                      <td><span class="fa fa-times text-primary">Sim</span></td>
+                      <td><span class="fa fa-times text-primary">Sim</span></td>
+                      <td><span class="fa fa-times text-primary">Sim</span></td>
+                      <td><span class="fa fa-times text-primary">Sim</span></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="row no-gutters row-bordered">
+                <div class="d-flex col-md align-items-center">
+                  <a href="javascript:void(0)" class="card-body d-block text-body">
+                    <div class="text-muted small line-height-1">Posts</div>
+                    <div class="text-xlarge">125</div>
+                  </a>
+                </div>
+                <div class="d-flex col-md align-items-center">
+                  <a href="javascript:void(0)" class="card-body d-block text-body">
+                    <div class="text-muted small line-height-1">Seguidores</div>
+                    <div class="text-xlarge">22567</div>
+                  </a>
+                </div>
+                <div class="d-flex col-md align-items-center">
+                  <a href="javascript:void(0)" class="card-body d-block text-body">
+                    <div class="text-muted small line-height-1">Seguindo</div>
+                    <div class="text-xlarge">10</div>
+                  </a>
+                </div>
+              </div>
+              <hr class="border-light m-0">
+              <div class="card-body">
+                <table class="table user-view-table m-0">
+                  <tbody>
+                    <tr>
+                      <td>Username:</td>
+                      <td>Dark1597</td>
+                    </tr>
+                    <tr>
+                      <td>Nome:</td>
+                      <td>Carlos Kauan</td>
+                    </tr>
+                    <tr>
+                      <td>E-mail:</td>
+                      <td>carloskauan@hotmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>Empresa:</td>
+                      <td>Skypiea Ltd.</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <h6 class="mt-4 mb-3">Redes Sociais</h6>
+
+                <table class="table user-view-table m-0">
+                  <tbody>
+                    <tr>
+                      <td>Twitter:</td>
+                      <td><a href="https://twitter.com/CarlosKauanBri2?s=09">@CarlosKauanBri2</a></td>
+                    </tr>
+                    <tr>
+                      <td>Facebook:</td>
+                      <td><a href="https://www.facebook.com/carloskauan.britomonteiro.77">Carlos Kauan Brito</a></td>
+                    </tr>
+                    <tr>
+                      <td>Instagram:</td>
+                      <td><a href="https://instagram.com/carloskauan1597?utm_medium=copy_link">@carloskauan1597</a></td>
+                    </tr>
+                    <tr>
+                      <td>Onlyfans:</td>
+                      <td><a href="https://www.universal.org/">Carlão</a></td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <h6 class="mt-4 mb-3">Informações Pessoais</h6>
+
+                <table class="table user-view-table m-0">
+                  <tbody>
+                    <tr>
+                      <td>Aniversario:</td>
+                      <td>03 de março</td>
+                    </tr>
+                    <tr>
+                      <td>Pais:</td>
+                      <td>Brasil</td>
+                    </tr>
+                    <tr>
+                      <td>Idioma:</td>
+                      <td>PT-BR</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <h6 class="mt-4 mb-3">Contato</h6>
+
+                <table class="table user-view-table m-0">
+                  <tbody>
+                    <tr>
+                      <td>WhatsApp:</td>
+                      <td>+55(86)995606122</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <h6 class="mt-4 mb-3">Interesses</h6>
+
+                <table class="table user-view-table m-0">
+                  <tbody>
+                    <tr>
+                      <td>Estilos favoritos de música:</td>
+                      <td>
+                        Lo-Fi,
+                        Trap,
+                        Rap,
+                        Jazz &amp; Rock,
+                        MPB
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Animes/Séries favoritas:</td>
+                      <td>
+                        Haikyuu,
+                        Naruto,
+                        Stranger Things,
+                        Teen Wolf,
+                        One piece,
+                        The flash,
+                        Shingeki no Kyojin
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  </body>
+</html>

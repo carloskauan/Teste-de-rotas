@@ -1,0 +1,15 @@
+{
+  "name": "b",
+  "version": "1.0.0",
+  "description": "Teste de rotas",
+  "main": "index.js",
+  "scripts": {
+    "start": "", 
+    "dev": "node Index.js"
+  },
+  "author": "Carlos Kauan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
